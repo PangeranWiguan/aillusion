@@ -1,0 +1,15 @@
+# This files is from llama.cpp pre-build binaries.
+
+https://github.com/ggml-org/llama.cpp/releases/download/b4824/cudart-llama-bin-win-cu12.4-x64.zip
+https://github.com/ggml-org/llama.cpp/releases/download/b4824/llama-b4824-bin-win-cuda-cu12.4-x64.zip
+
+llama.cpp/cublas64_12.dll
+llama.cpp/cublasLt64_12.dll
+llama.cpp/cudart64_12.dll
+llama.cpp/ggml-base.dll
+llama.cpp/ggml-cpu.dll
+llama.cpp/ggml-cuda.dll
+llama.cpp/ggml-rpc.dll
+llama.cpp/ggml.dll
+llama.cpp/llama-cli.exe
+llama.cpp/llama.dll
