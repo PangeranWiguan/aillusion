@@ -14,7 +14,11 @@ export_presets.cfg
 data_*/
 mono_crash.*.json
 
-# Exclude the big AI Model files and all the .dll
-.gguf
-.dll
-.exe
+# Ignore all .exe files inside the llama.cpp folder
+/llama.cpp/*.exe
+
+# Ignore all .dll files inside the llama.cpp folder
+/llama.cpp/*.dll
+
+# Ignore all .gguf files inside the llama.cpp folder. This is the model files.
+/llama.cpp/models/*.gguf
