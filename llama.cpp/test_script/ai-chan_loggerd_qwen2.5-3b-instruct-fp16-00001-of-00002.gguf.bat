@@ -19,6 +19,6 @@ set "full_prompt=%escaped_system_prompt% Assistant:"
 :: Run llama-cli.exe
 echo Running AI with the following prompt:
 echo %full_prompt%
-llama-cli.exe -m models/qwen2.5-3b-instruct-fp16-00001-of-00002.gguf -sys "%full_prompt%" -p "Hi" --temp 2.0 --top-p 0.9 -t 12 -co --keep -1 --log-file chat_log.txt --log-prefix --log-timestamps -c 100000 -s 1288850135
+llama-cli.exe -m models/qwen2.5-3b-instruct-fp16-00001-of-00002.gguf -sys "%full_prompt%" -p "Hi" --temp 2.0 --top-p 0.9 -co --keep -1 --log-file chat_log.txt --log-prefix --log-timestamps -c 32768 -s 515252267
 
 pause
