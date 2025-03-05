@@ -17,3 +17,4 @@ mono_crash.*.json
 # Exclude the big AI Model files and all the .dll
 .gguf
 .dll
+.exe
